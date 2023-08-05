@@ -41,11 +41,11 @@ const callGenerateEndpoint = async () => {
             <h1>Generate some posts!</h1>
           </div>
           <div className="header-subtitle">
-            <h2>input the title for your post, and we will generate the rest.</h2>
+            <h2>input the title to ypur Linkedin post, and we will generate the rest.</h2>
           </div>
         </div>
         <div className="prompt-container">
-          <textarea placeholder="start typing here" className="prompt-box" value={userInput}
+          <textarea placeholder="Top 3 AI tools in 2023" className="prompt-box" value={userInput}
   onChange={onUserChangedText} />
   <div className="prompt-buttons">
     <a className={isGenerating?'generate-button loading' :'generate-button'} onClick={callGenerateEndpoint}>
